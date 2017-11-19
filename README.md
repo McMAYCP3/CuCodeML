@@ -41,12 +41,12 @@ configuration part to fit your need:
     If you want a quick configuration, just modifying the CUDA_INSTALL_PATH and SINGLE_GPU_ID configuration is usually enough.
  
     If you just want to use one GPU card and not cooperate with CPU, edit the configuration just like this:
-       ```
+  ```
        MULTICARD_ONLY_GPU = no
        HYBRID = no
        SINGLE_GPU_ID = #GPUID you want to use
        MAXGPU = 1
-       ```
+  ```
 
     If you want to use one GPU card and cooperate with CPU, edit like this:
        ```
