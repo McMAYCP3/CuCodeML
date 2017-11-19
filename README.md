@@ -1,4 +1,4 @@
-###CUDA-CodeML Manual
+# CUDA-CodeML Manual
 
 1. Introduction
 2. Getting Started
@@ -6,11 +6,11 @@
 
 -------------------------------------------------------------------------
 
-####1. Introduction
+## 1. Introduction
 
 CuCodeML is a GPU version of CodeML for the branch-site model.
 
-####2. Getting Started
+## 2. Getting Started
 
 The following instructions take you through a sequence of steps to get the
 default configuration of CuCodeML up and running.
@@ -79,6 +79,6 @@ configuration part to fit your need:
         `your-CuCodeML-path/CuCodeml`
  -   The arguments it takes is exactly the same as that codeml takes.
 
-3. License and Warranty
+## 3. License and Warranty
 ==================
 
