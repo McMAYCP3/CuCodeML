@@ -49,34 +49,36 @@ configuration part to fit your need:
   ```
 
     If you want to use one GPU card and cooperate with CPU, edit like this:
-       ```
+  ```
        MULTICARD_ONLY_GPU = no
        HYBRID = yes
        MAXGPU = 1
-       ```
+  ```
 
     If you want to use multiple GPU cards and not cooperate with CPU, edit like this:
-       ```
+  ```
        MULTICARD_ONLY_GPU = yes
        HYBRID = no
        MAXGPU = #GPUs you want to use ( bigger than 1) 
-       ```
+  ```
 
     If you want to use multiple GPU cards and cooperate with CPU, edit like this:
+  ```
        MULTICARD_ONLY_GPU = no
        HYBRID = yes
        MAXGPU = #GPUs you want to use( bigger than 1)
+  ```
 
 (c) Build
 -  For all shells:
-   -  make
+   `make `
 
 (d) Installation
  -   CuCodeML doesn't need to be installed.
 
 (e) Execution
  -   Run the program with the following command:
-        `your-CuCodeML-path/CuCodeml`
+     `your-CuCodeML-path/CuCodeml`
  -   The arguments it takes is exactly the same as that codeml takes.
 
 ## 3. License and Warranty
