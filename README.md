@@ -1,4 +1,4 @@
-# CUDA-CodeML Manual
+# CuCodeML Manual
 
 1. Introduction
 2. Getting Started
