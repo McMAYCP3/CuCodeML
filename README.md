@@ -78,7 +78,7 @@ configuration part to fit your need:
 
 (e) Execution
  -   Run the program with the following command:
-     `your-CuCodeML-path/CuCodeml`
+     `your-CuCodeML-path/CuCodeML`
  -   The arguments it takes is exactly the same as that codeml takes.
 
 ## 3. License and Warranty
