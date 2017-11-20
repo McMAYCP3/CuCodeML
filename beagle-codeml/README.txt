@@ -1,5 +1,5 @@
 1. Notice:
-   This sub-directory is used to generate beagle-codeml only for runtime comparision purposes.
+   This sub-directory is used to generate BeagleCodeML only for runtime comparision purposes.
    WARNNING: DO NOT USE IT FOR REAL ANALYSIS!
 
 2. Generating beagle-codeml:
@@ -15,5 +15,5 @@
 
 3. Running beagle-codeml:
    The following command is used for running beagle-codeml:
-   your-beagle-codeml-path/beagle-codeml 
+   your-BeagleCodeML-path/BeagleCodeML 
    (just like running codeml)  
