@@ -97,4 +97,4 @@ cuda-codeml.o : cuda-codeml.cu codeml.h
 
 .PHONY : clean
 clean :
-	$(RM) cuda-codeml $(OBJECTS)
+	$(RM) CuCodeML $(OBJECTS)
