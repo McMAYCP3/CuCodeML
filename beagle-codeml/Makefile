@@ -33,7 +33,7 @@ ifeq ($(strip $(CUDA)), yes)
    CFLAGS      += -DBEAGLE
    CFLAGS      += -I$(BEAGLE_INSTALL_PATH)/include/libhmsbeagle-1
    LIBS        += $(BEAGLELIBS) -lhmsbeagle
-   PROG         = BeagelCodeML
+   PROG         = BeagleCodeML
    OBJECTS     += beagle-codeml.o tools_beagle.o codeml_beagle.o
    
    ifeq ($(strip $(NOSCALE)), yes)
